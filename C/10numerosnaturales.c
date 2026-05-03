@@ -1,18 +1,15 @@
 #include <stdio.h>
 
 int main(void) {
+    
+	int a = 1;
 
-		int a = 1;
-
-		do {
+	do {
+	printf("%d ", a);
+	a++;
+	} while (a < 11);
 		
-		printf("%d ", a);
-		a++;
-
-		} while (a < 11);
-		
-		return 0;
-
+	return 0;
 }
 
 // in a FOR loop
