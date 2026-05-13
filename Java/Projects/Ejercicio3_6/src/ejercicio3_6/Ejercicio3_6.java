@@ -1,13 +1,13 @@
-package ejercicio3_2;
+package ejercicio3_6;
 
 /**
  *
  * @author qwefg
  */
-public class Ejercicio3_2 {
+public class Ejercicio3_6 {
 
 	public static void main(String[] args) {
-		
+		// "calculadora"
 	}
 	
 }

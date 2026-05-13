@@ -10,5 +10,13 @@
             <file>file:/home/qwefg/CEU/ProgramasJava/dvf-practica0/ParcialPokemon/src/parcialpokemon/Charmander.java</file>
             <file>file:/home/qwefg/CEU/ProgramasJava/dvf-practica0/ParcialPokemon/src/parcialpokemon/Pikachu.java</file>
         </group>
+        <group name="Ejemplos">
+            <file>file:/home/qwefg/CEU/Java/Projects/ParcialPokemon/src/parcialpokemon/Entrenador.java</file>
+            <file>file:/home/qwefg/CEU/Java/Projects/ParcialPokemon/src/parcialpokemon/ParcialPokemon.java</file>
+            <file>file:/home/qwefg/CEU/Java/Projects/ParcialPokemon/src/parcialpokemon/Pikachu.java</file>
+            <file>file:/home/qwefg/CEU/Java/Projects/ParcialPokemon/src/parcialpokemon/Charmander.java</file>
+            <file>file:/home/qwefg/CEU/Java/Projects/ParcialPokemon/src/parcialpokemon/Pokemon.java</file>
+            <file>file:/home/qwefg/CEU/Java/Projects/ParcialPokemon/src/parcialpokemon/Tipo.java</file>
+        </group>
     </open-files>
 </project-private>
