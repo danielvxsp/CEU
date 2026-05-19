@@ -70,6 +70,29 @@ public class Racional {
 		return new Racional(this.numerador * r2.denominador, this.denominador * r2.numerador);
         }
 
-	// simplificacion maximo comun divisor
+	public void simplificar() {
+		int mcd = calcularMCD(this.numerador, this.denominador);
+        
+		this.numerador = this.numerador / mcd;
+		this.denominador = this.denominador / mcd;
+    }
+
+	private int calcularMCD(int a, int b) {
+		int num1 = a;
+		int num2 = b;
+        
+		// a positivos
+		if (num1 < 0) num1 = -num1;
+		if (num2 < 0) num2 = -num2;
+        
+		// divisor comun
+		while (num2 != 0) {
+		int resto = num1 % num2;
+		num1 = num2;
+		num2 = resto;
+		}
+        
+        return num1;
+	}
 	
 }
