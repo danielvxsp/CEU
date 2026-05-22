@@ -36,9 +36,9 @@ public class Racional {
 	public void setNumerador(int numerador) {
 		this.numerador = numerador; }
 
-	public int getDenominador() { return numerador; }
-	public void setDenominador(int numerador) {
-		this.numerador = numerador; }
+	public int getDenominador() { return denominador; }
+	public void setDenominador(int denominador) {
+		this.denominador = denominador; }
 
 	// ad bc / db   c/d <- r2
 	public Racional suma(Racional r2) {
