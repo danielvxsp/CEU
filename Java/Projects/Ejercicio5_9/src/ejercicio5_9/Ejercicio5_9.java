@@ -46,7 +46,6 @@ public class Ejercicio5_9 {
         io.escribirbin(original, fichBinBasico);
         io.escribirObjBin(original, fichBinObjeto);
 
-        // 5. Leer los ficheros y mostrar las colecciones resultantes
         ArrayList<Racional> lista = io.leer(fichTexto);
         System.out.println("Lectura Texto:       " + lista);
         ArrayList<Racional> listaBin = io.leerbin(fichBinBasico);
