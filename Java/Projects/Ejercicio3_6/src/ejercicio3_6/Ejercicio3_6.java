@@ -70,7 +70,7 @@ public class Ejercicio3_6 {
                     break;
                     
                 case 0:
-                    System.out.println("\n¡Hasta luego!");
+                    System.out.println("\nCerrando");
                     break;
                     
                 default:
