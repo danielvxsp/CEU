@@ -93,7 +93,6 @@ public class RacionalIO {
         }
     }
 
-    // Usamos esta etiqueta para decirle a Java que sabemos lo que hacemos con el (ArrayList)
     public ArrayList<Racional> leerObjBin(String fichero) {
         ArrayList<Racional> leidos = new ArrayList<>();
         
